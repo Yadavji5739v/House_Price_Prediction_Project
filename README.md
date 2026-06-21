@@ -31,7 +31,7 @@ The dataset (`Housing.csv`) contains **545 records** with **13 attributes**, sou
 ## Project Structure
 
 ```
-house-price-prediction/
+House_Price_Prediction_Project/
 ├── Housing.csv                      # Dataset
 ├── house_price_prediction.ipynb     # Main analysis & modeling notebook
 ├── house_price_histogram.png        # Chart: price distribution
@@ -39,9 +39,31 @@ house-price-prediction/
 ├── actual_vs_predicted.png          # Chart: actual vs predicted prices
 ├── model_accuracy_comparison.png    # Chart: R² comparison
 ├── model_metrics_comparison.png     # Chart: combined R² / MAE / RMSE comparison
-├── House_Price_Prediction_Project_Report.docx  # Full written project report
+├── summary.pdf                      # Full written project report
 └── README.md
 ```
+
+## Visualizations
+
+**Distribution of House Prices**
+
+![House price distribution](house_price_histogram.png)
+
+**Correlation Heatmap**
+
+![Correlation heatmap](correlation_heatmap.png)
+
+**Actual vs. Predicted Prices**
+
+![Actual vs predicted](actual_vs_predicted.png)
+
+**Model Accuracy Comparison**
+
+![Model accuracy comparison](model_accuracy_comparison.png)
+
+**Combined Metrics Comparison (R² / MAE / RMSE)**
+
+![Model metrics comparison](model_metrics_comparison.png)
 
 ## Methodology
 
@@ -79,8 +101,8 @@ pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 
 ### Running the project
 ```bash
-git clone https://github.com/<your-username>/house-price-prediction.git
-cd house-price-prediction
+git clone https://github.com/Yadavji5739v/House_Price_Prediction_Project.git
+cd House_Price_Prediction_Project
 jupyter notebook house_price_prediction.ipynb
 ```
 Run all cells in order. Charts will be regenerated and saved as PNG files in the project directory.
@@ -94,7 +116,7 @@ Run all cells in order. Charts will be regenerated and saved as PNG files in the
 
 ## Report
 
-A full written report with methodology, charts, and analysis is included: [`analysis.docx`](./analysis.docx)
+A full written report with methodology, charts, and analysis is included: [`summary.pdf`](./summary.pdf)
 
 ## License
 
