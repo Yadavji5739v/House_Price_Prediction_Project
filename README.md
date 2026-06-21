@@ -116,7 +116,7 @@ Run all cells in order. Charts will be regenerated and saved as PNG files in the
 
 ## Report
 
-A full written report with methodology, charts, and analysis is included: [`summary.pdf`](./summary.pdf)
+A full written report with methodology, charts, and analysis is included: [`summary.pdf`](https://github.com/Yadavji5739v/House_Price_Prediction_Project/blob/main/summary.pdf)
 
 ## License
 
